@@ -1,0 +1,1 @@
+while True: print(''.join(map(lambda x: chr(ord(x)+13), list(input('What is your text?\n'))))) if input('Encrypt or Decrypt\n').lower() == 'encrypt' else print(''.join(map(lambda x: chr(ord(x)-13), list(input('What is your text?\n')))))
